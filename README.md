@@ -30,8 +30,8 @@ command: ip a
 ----> gives the ip address with subnet. We can find the ip range from that. 
 
 ### Step 2: Perform TCP SYN Scan with Nmap
-            nmap -sS 192.168.29.0/24
-      -sS	: TCP SYN scan (stealthy and fast)
+nmap -sS 192.168.29.0/24
+# -sS : TCP SYN scan (stealthy and fast)
 This scan will list all live hosts and their open TCP ports.
 
 ###  Step 3: Save the Output
