@@ -30,14 +30,10 @@ Learn how to discover **open ports** on devices within your **local network** us
 ### 📍 Step 1: Identify Your IP and Network Range
 
 Run:
-```bash
 ip a
 Look for the IP assigned to your active interface (e.g., wlan0 or eth0).
-Example:
 
-nginx
-Copy
-Edit
+Example: 
 inet 192.168.29.45/24
 👉 Your subnet is /24, so your IP range is: 192.168.29.0/24
 
